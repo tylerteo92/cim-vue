@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow: auto !important;
+  font-size: 14px;
+}
+
+.v-data-table-footer * {
+  font-size: 14px;
+}
+
+/* remove input spin number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+:root {
+  /* primary */
+  --color-primary: #EC1A30;
+
+  /* secondary */
+  --color-secondary: #F9DC5C;
+
+  /* success */
+  --color-success: #4DB228;
+  
+  /* warning */
+  --color-warning: #EFA418;
+  
+  /* white */
+  --color-white: #FFFFFF;
+  
+  /* black */
+  --color-black: #121212;
+
+  /* error */
+  --color-error: #B00020;
+}

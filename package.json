@@ -1,0 +1,34 @@
+{
+  "name": "cim-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8080",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "date-fns": "^2.30.0",
+    "pinia": "^2.1.3",
+    "sweetalert2": "^11.7.12",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2",
+    "vuetify": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.5",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@types/node": "^20.2.6",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.14",
+    "material-design-icons-iconfont": "^6.7.0",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
