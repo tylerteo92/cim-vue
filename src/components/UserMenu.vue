@@ -29,16 +29,12 @@
 </template>
 
 <script setup lang="ts">
-// import router from '@/router'
 import Swal from 'sweetalert2'
 import { ref } from 'vue'
-// import store from '@/stores'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
 const menu = ref(false)
-// const userInfo = ref(store.getters.userInfo)
-// const isAdmin = ref(store.getters.isAdmin)
 const menuItems = ref([
   { title: 'Logout', action: 'logout' },
 ])
@@ -58,7 +54,6 @@ const logout = () => {
     showCancelButton: true,
   }).then(async(res) => {
     if (res.isConfirmed || res.dismiss === Swal.DismissReason.timer) {
-      // await store.dispatch('clear')
       router.push({ name: 'home' })
     }
   })
